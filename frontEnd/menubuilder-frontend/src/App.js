@@ -1,10 +1,9 @@
-import Test from './Test';
+import MenuBuilderHomePage from './pages/MenuBuilderHomePage';
 
 function App() {
   return (
     <div className="App">
-      <h1 class='font-bold'>Hello World</h1>
-      <Test />
+      <MenuBuilderHomePage />
     </div>
   );
 }

@@ -1,8 +1,16 @@
+import React from 'react';
+import Header from '../components/header';
+import Category from '../components/category';
+
 function MenuBuilderHomePage() {
     return (
       <div className="App">
-        <h1 class='font-bold'>Hello World</h1>
-        <Test />
+        {/* Nav */}
+        <Header />
+        {/* Category */}
+        <Category />
+        {/* Create Category Button */}
+        <button>Create Category</button>
       </div>
     );
   }
